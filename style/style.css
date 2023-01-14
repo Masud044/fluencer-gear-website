@@ -1,0 +1,247 @@
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=Poppins:wght@500&display=swap');
+
+  /*header style*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-title{
+    height: 100px;
+    
+}
+
+.header-title,.seciton-title{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 15px;
+
+  
+}
+.fa-solid{
+    padding-left: 10px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header-t{
+    font-weight: 700;
+    font-size: 24px;
+}
+.header-right ul{
+    display: flex;
+    gap: 15px;
+}
+.header-right ul li{
+     list-style: none;
+     font-weight: 600;
+    font-size: 16px;
+   color: #3A3A3A;
+    font-family: 'Open Sans', sans-serif;
+}
+/*main seciton*/
+
+
+.seciton-image img{
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    margin-top: 50px;
+    
+    
+   
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.title1{
+    font-weight: 700;
+    font-size: 52px;
+}
+.description{
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.btn{
+   width: 196px;
+  height: 44px;
+  background-color: #E02C6D;
+  border-radius: 41px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+/*logo*/
+.logo img{
+    Width:84px;
+    Height:25.28px;
+}
+hr{
+   
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:  #AAAAAA;
+   opacity: 0.3;
+  
+
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    height: 110px;
+    width: 100%;
+    max-width: 1050px;
+     margin: 0 auto;
+   
+    padding: 0 15px;
+    align-items: center;
+}
+/*images*/
+.images{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    max-width: 900px;
+     margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 20px;
+    
+    
+}
+.image{
+    width: 260px;
+    height: 390px;
+    border-color: red;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding-left:10px;
+    padding-top:10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.image-title{
+    margin-bottom: 30px;
+    margin-top: 100px;
+   text-align: center;
+}
+.image img{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.images-title{
+    font-size: 28px;
+    color:#18191F;
+    font-family: 'Open Sans', sans-serif;
+}
+.image1{
+    display: flex;
+    margin-top: 10px;
+}
+.image2{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.image2-1{
+    margin-top: -5px;
+}
+.image-des{
+    color: rgba;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.fa-star{
+    font-size: 8px;
+}
+ .fa-star.filled{
+    
+    color: #FB8200;
+   
+}
+.fa-star.empty{
+   color: #FB8200;
+   width: calc(50% - 16px/2);
+}
+.image-int{
+    color: #5E6366;
+    font-weight: 700;
+   font-size: 14px;
+}
+.image-bottom{
+    color: #787885;
+    font-weight: 700;
+    font-size: 14px;
+}
+/*container*/
+.image-con img{
+   width: 350px;
+   height: 200px;
+   
+}
+.image-container{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    width: 196px;
+  height: 44px;
+  background-color: #E02C6D;
+  
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+/*footer*/
+footer{
+    padding: 100px 0;
+    background-color: #18191F;
+    margin-top: 100px;
+   
+}
+.fa-brands{
+    padding-left: 10px;
+    border-radius: 50%;
+   
+    stroke:bisque;
+   stroke-width: 50px;
+   
+}
+.footer-container{
+    text-align: center;
+    margin-top: -50px;
+    
+}
+.footer1{
+    color:white
+}
+
+
